@@ -216,7 +216,7 @@
 </div>
 
 
-<div id="app" class="w-full mx-auto px-4 md:px-8 py-12 transition-all duration-500 ease-linear">
+<div id="app" class="w-full mx-auto px-8 py-12 transition-all duration-500 ease-linear">
   <div class="judul mb-4 text-black text-2xl font-semibold">GALERI </div>
   <div class="relative">
     <div class="slides-container h-32 md:h-72 flex snap-x snap-mandatory overflow-hidden overflow-x-auto space-x-2 rounded scroll-smooth ">
