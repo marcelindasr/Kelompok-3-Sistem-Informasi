@@ -103,49 +103,48 @@
 
 
 
-  <div class="container relative w-full h-480 overflow-hidden" @mouseover="stopAutoplay" @mouseout="startAutoplay">
-    <span
-      class="next absolute top-1/2 transform -translate-y-1/2 px-4 py-3 text-white font-bold text-2xl transition duration-500 rounded-md select-none cursor-pointer z-20 right-10 hover:bg-gray-300 hover:opacity-80 hover:text-gray-700"
-      @click="nextSlide">&#10095;</span>
-    <span
-      class="prev absolute top-1/2 transform -translate-y-1/2 px-4 py-3 text-white font-bold text-2xl transition duration-500 rounded-md select-none cursor-pointer z-20 left-10 hover:bg-gray-300 hover:opacity-80 hover:text-gray-700"
-      @click="prevSlide">&#10094;</span>
+  
+<div class="container relative sm:min-w-full h-auto overflow-hidden " @mouseover="stopAutoplay" @mouseout="startAutoplay">
 
-    <section class="slides-row flex h-full w-full z-0">
-      <div class="slide w-full h-full relative" v-show="currentIndex === 0">
-        <img src="./assets/banner/banner1.png" class="w-full h-full object-cover">
-        <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-60 z-10"></div>
-      </div>
-      <div class="slide w-full relative" v-show="currentIndex === 1">
-        <img src="./assets/banner/banner10.jpg" class="w-full h-full object-cover">
-        <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-60 z-10"></div>
-      </div>
-      <div class="slide w-full h-full relative" v-show="currentIndex === 2">
-        <img src="./assets/banner/banner3.png" class="w-full h-full object-cover">
-        <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-60 z-10"></div>
-      </div>
-      <div class="slide w-full h-full relative" v-show="currentIndex === 3">
-        <img src="./assets/banner/banner2.png" class="w-full h-full object-cover">
-        <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-60 z-10"></div>
-      </div>
-    </section>
+  <span class="next absolute bottom-1/2   px-4 py-3 text-white font-bold text-2xl transition duration-500 rounded-md select-none   cursor-pointer z-20 right-10 hover:bg-gray-300 hover:opacity-80 hover:text-gray-700" @click="nextSlide">&#10095;</span>
+  <span class="prev absolute bottom-1/2  px-4 py-3 text-white font-bold text-2xl transition duration-500 rounded-md select-none  cursor-pointer z-20 left-10 hover:bg-gray-300 hover:opacity-80 hover:text-gray-700" @click="prevSlide">&#10094;</span>
 
-    <section class="relative z-50 flex justify-center bottom-12">
-      <div v-for="(dot, index) in dots" :key="index" class="h-3 w-3 mx-1 rounded-full border-2 border-white"
-        :style="{ 'background-color': index === currentIndex ? 'red' : '' }" @click="goToSlide(index)"></div>
-    </section>
+
+
+<section class="slides-row flex h-full w-full z-0">
+  <div class="slide w-full h-full relative" v-show="currentIndex === 0">
+    <img src="./assets/banner/banner1.png" class="w-full h-full object-cover">
+    <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-60 z-10"></div>
   </div>
+  <div class="slide w-full relative" v-show="currentIndex === 1">
+    <img src="./assets/banner/banner10.jpg" class="w-full h-full object-cover">
+    <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-60 z-10"></div>
+  </div>
+  <div class="slide w-full h-full relative" v-show="currentIndex === 2">
+    <img src="./assets/banner/banner3.png" class="w-full h-full object-cover">
+    <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-60 z-10"></div>
+  </div>
+  <div class="slide w-full h-full relative" v-show="currentIndex === 3">
+    <img src="./assets/banner/banner2.png" class="w-full h-full object-cover">
+    <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-60 z-10"></div>
+  </div>
+</section>
+
+<section class="relative z-50 flex justify-center bottom-12">
+  <div v-for="(dot, index) in dots" :key="index" class="h-3 w-3 mx-1 rounded-full border-2 border-white" :style="{ 'background-color': index === currentIndex ? 'red' : '' }" @click="goToSlide(index)"></div>
+</section>
+</div>
 
   <div class="sambutan-container flex flex-col md:flex-row bg-abu mt-12 mb-12 justify-center items-center">
-  <!-- Sambutan Kiri (Kiri di Atas untuk Tablet dan Mobile) -->
+  
   <div class="sambutan-kiri flex justify-center items-center w-full md:w-2/5 h-auto md:h-4/5 pl-30 pr-30 md:pr-10 md:pl-10 md:order-first">
     <div class="dekan-kontainer w-4/5 pt-10 pb-10">
-      <!-- Gambar dengan lebar responsif -->
+     
       <img src="./assets/sambutan/Group 195.png" class="foto w-1/2 sm:w-1/3 md:w-full mx-auto">
     </div>
   </div>
 
-  <!-- Sambutan Kanan (Kanan di Bawah untuk Tablet dan Mobile) -->
+  
   <div class="sambutan-kanan flex flex-col justify-center items-center md:items-start w-full md:w-3/5 md:pr-20 h-full pl-10 pr-10 pb-10">
     <div class="sambutan-kanan-top mb-0.5 md:mt-10">
       <p id="title" class="text-19 font-bold text-merahdesain text-center md:text-left">DEKAN FAKULTAS TEKNIK</p>
