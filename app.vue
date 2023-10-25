@@ -217,7 +217,7 @@
 
 
 <div id="app" class="w-full mx-auto px-4 md:px-8 py-12 transition-all duration-500 ease-linear">
-  <div class="judul text-black text-2xl font-semibold">GALERI </div>
+  <div class="judul mb-4 text-black text-2xl font-semibold">GALERI </div>
   <div class="relative">
     <div class="slides-container h-32 md:h-72 flex snap-x snap-mandatory overflow-hidden overflow-x-auto space-x-2 rounded scroll-smooth ">
       <div class="b relative group">
@@ -317,7 +317,7 @@
 </div>
 </div> 
 
-  <div class="Berita mb-5 ml-4 mr-8 flex flex-wrap items-start justify-start pb-4">
+  <div class="Berita mb-5 ml-8 mr-8 flex flex-wrap items-start justify-start pb-4">
     <div class="judul text-2xl mb-4 mt-8 font-semibold text-black">BERITA</div>
     <div class="berita">
       <div class="berita-content -mx-4 mr-4 flex flex-wrap items-start justify-start pb-4 md:justify-center">
