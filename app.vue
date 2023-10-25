@@ -160,7 +160,7 @@
     </ul>
   </div>
 
-<div class="container relative sm:min-w-full h-auto overflow-hidden " @mouseover="stopAutoplay" @mouseout="startAutoplay">
+<div class="container relative min-w-full h-auto overflow-hidden " @mouseover="stopAutoplay" @mouseout="startAutoplay">
 
   <span class="next absolute bottom-1/2   px-4 py-3 text-white font-bold text-2xl transition duration-500 rounded-md select-none   cursor-pointer z-20 right-10 hover:bg-gray-300 hover:opacity-80 hover:text-gray-700" @click="nextSlide">&#10095;</span>
   <span class="prev absolute bottom-1/2  px-4 py-3 text-white font-bold text-2xl transition duration-500 rounded-md select-none  cursor-pointer z-20 left-10 hover:bg-gray-300 hover:opacity-80 hover:text-gray-700" @click="prevSlide">&#10094;</span>
