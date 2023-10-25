@@ -107,16 +107,12 @@
         <li class="hover:text-red-500 QUICKACCESS text-10 text-white">
           <i class="fas fa-key"></i> QUICK ACCESS
         </li>
-
         <li class="group w-6 h-4">
           <img src="./assets/header/Indonesia.png" alt="Indonesia" class="w-full h-full">
         </li>
         <li class="group w-6 h-4">
-
           <img src="./assets/header/English.png" alt="Indonesia" class="w-full h-full mr-2">
         </li>
-
-
         <li class="SEARCH_ICON">
           <a href="#">
             <img src="./assets/header/a.png" alt="search" width="15" height="15">
@@ -164,8 +160,6 @@
     </ul>
   </div>
 
-
-  
 <div class="container relative sm:min-w-full h-auto overflow-hidden " @mouseover="stopAutoplay" @mouseout="startAutoplay">
 
   <span class="next absolute bottom-1/2   px-4 py-3 text-white font-bold text-2xl transition duration-500 rounded-md select-none   cursor-pointer z-20 right-10 hover:bg-gray-300 hover:opacity-80 hover:text-gray-700" @click="nextSlide">&#10095;</span>
