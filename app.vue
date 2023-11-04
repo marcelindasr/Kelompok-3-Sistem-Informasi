@@ -446,7 +446,7 @@
         </a>
       </div>
 
-      <div class="info-item3 bg-white w-128 h-24 mr-30 mb-5 drop-shadow hover-bg-slate-100">
+      <div class="info-item3 bg-white w-128 h-24 mr-30 mb-5 drop-shadow hover:bg-slate-100">
         <a href="#" class="flex">
           <div class="item3-top">
             <div class="item3-left flex">
@@ -469,7 +469,7 @@
         </a>
       </div>
 
-      <div class="info-item4 bg-white w-128 h-24 mr-30 mb-5 drop-shadow hover-bg-slate-100">
+      <div class="info-item4 bg-white w-128 h-24 mr-30 mb-5 drop-shadow hover:bg-slate-100">
         <a href="#" class="flex">
           <div class="item4-top">
             <div class="item4-left flex">
