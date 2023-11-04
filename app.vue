@@ -216,58 +216,58 @@
 </div>
 
 
-<div id="app" class="w-full mx-auto px-8 py-12 transition-all duration-500 ease-linear">
-  <div class="judul mb-4 text-black text-2xl font-semibold">GALERI </div>
+<div id="app" class="w-full mx-auto px-4 md:px-8 py-12 transition-all duration-500 ease-linear">
+  <div class="judul text-black text-2xl font-semibold mb-8">GALERI </div>
   <div class="relative">
-    <div class="slides-container h-32 md:h-72 flex snap-x snap-mandatory overflow-hidden overflow-x-auto space-x-2 rounded scroll-smooth ">
+    <div class="slides-container h-40 md:h-72 flex snap-x snap-mandatory overflow-hidden overflow-x-auto space-x-2 rounded scroll-smooth ">
       <div class="b relative group">
         <div class="slideim aspect-[4/3] h-full flex-shrink-0 snap-center rounded overflow-hidden transition-transform transform-gpu">
           <img class="w-full h-full object-cover" src="./assets/galeri/foto1.jpeg" alt="Transformasi digital manajemen persuratan(mBerkas)">
         </div>
         <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] w-full bg-black opacity-0 group-hover:opacity-50"></div>
-        <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Transformasi digital manajemen persuratan(mBerkas)</div>
+        <div class="absolute inset-0 flex pl-5 pr-5 items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Transformasi digital manajemen persuratan(mBerkas)</div>
       </div>
       <div class="b relative group">
         <div class="slideim aspect-[4/3] h-full flex-shrink-0 snap-center rounded overflow-hidden transition-transform transform-gpu">
           <img class="w-full h-full object-cover " src="./assets/galeri/foto2.jpeg" alt="Kesepakatan Kerja Sama">
         </div>
         <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] w-full bg-black opacity-0 group-hover:opacity-50"></div>
-        <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Kesepakatan Kerja Sama</div>
+        <div class="absolute inset-0 flex pl-5 pr-5 items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Kesepakatan Kerja Sama</div>
       </div>
       <div class="b relative group">
         <div class="slideim aspect-[4/3] h-full flex-shrink-0 snap-center rounded overflow-hidden transition-transform transform-gpu">
           <img class="w-full h-full object-cover " src="./assets/galeri/foto3.jpeg" alt="Pengabdian Masyarakat">
         </div>
         <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] w-full bg-black opacity-0 group-hover:opacity-50"></div>
-        <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Pengabdian Masyarakat</div>
+        <div class="absolute inset-0 flex pl-5 pr-5 items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Pengabdian Masyarakat</div>
       </div>
       <div class="b relative group">
         <div class="slideim aspect-[4/3] h-full flex-shrink-0 snap-center rounded overflow-hidden transition-transform transform-gpu">
           <img class="w-full h-full object-cover" src="./assets/galeri/foto4.jpeg" alt="Rapat Kerja Fakultas Teknik">
         </div>
         <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] w-full bg-black opacity-0 group-hover:opacity-50"></div>
-        <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Rapat Kerja Fakultas Teknik</div>
+        <div class="absolute inset-0 flex pl-5 pr-5 items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Rapat Kerja Fakultas Teknik</div>
       </div>
       <div class="b relative group">
         <div class="slideim aspect-[4/3] h-full flex-shrink-0 snap-center rounded overflow-hidden transition-transform transform-gpu">
           <img class="w-full h-full object-cover" src="./assets/galeri/foto5.jpeg" alt="Pelantikan dan Pengambilan sumpah jabatan Pejabat">
         </div>
         <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] w-full bg-black opacity-0 group-hover:opacity-50"></div>
-        <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Pelantikan dan Pengambilan sumpah jabatan Pejabat</div>
+        <div class="absolute inset-0 flex pl-5 pr-5 items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Pelantikan dan Pengambilan sumpah jabatan Pejabat</div>
       </div>
       <div class="b relative group">
         <div class="slideim aspect-[4/3] h-full flex-shrink-0 snap-center rounded overflow-hidden transition-transform transform-gpu">
           <img class="max-w-screen-2xl h-full object-cover" src="./assets/galeri/foto6.jpeg" alt="Wisuda Universitas Hasanuddin Periode IV tahap II">
         </div>
         <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] w-full bg-black opacity-0 group-hover:opacity-50"></div>
-        <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Wisuda Universitas Hasanuddin Periode IV tahap II</div>
+        <div class="absolute inset-0 flex  pl-5 pr-5 items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Wisuda Universitas Hasanuddin Periode IV tahap II</div>
       </div>
       <div class="b relative group">
         <div class="slideim aspect-[4/3] h-full flex-shrink-0 snap-center rounded overflow-hidden transition-transform transform-gpu">
           <img class="w-full h-full object-cover" src="./assets/galeri/foto7.jpeg" alt="Rapat Koordinasi Internal">
         </div>
         <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] w-full bg-black opacity-0 group-hover:opacity-50"></div>
-        <div class="absolute inset-0 flex items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Rapat Koordinasi Internal</div>
+        <div class="absolute inset-0 flex pl-5 pr-5 items-center justify-center [text-shadow:0_1px_0_rgb(0_0_0/_100%)] text-white w-full text-xs md:text-xl font-medium opacity-0 group-hover:opacity-100">Rapat Koordinasi Internal</div>
       </div>
     </div>
 
@@ -729,9 +729,16 @@ export default {
 
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Inter");
-
-html,
-* {
+@import url("https://fonts.googleapis.com/css2?family=Inter"); html, *{
   font-family: "Inter", sans-serif;
-}</style>
+}
+
+.slides-container {
+	-ms-overflow-style: none; 
+	scrollbar-width: none; 
+}
+.slides-container::-webkit-scrollbar {
+	display: none; 
+}
+
+</style>
