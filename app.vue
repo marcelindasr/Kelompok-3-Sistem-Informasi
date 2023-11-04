@@ -748,7 +748,6 @@ created() {
 
 
 
-
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Inter"); html, *{
   font-family: "Inter", sans-serif;
