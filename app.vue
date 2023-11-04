@@ -525,7 +525,7 @@
     </section>
   </div>
 
-  <footer class="bg-merahgelap relative py-10 sm:flex md:items-center md:justify-between">
+   <footer class="bg-merahgelap relative py-10 sm:flex md:items-center md:justify-between">
     <img class="hidden md:block absolute inset-0 w-1/2 h-1/2 mx-auto my-auto bg-cover bg-center"
       src=".\assets\footer/footer-bg.png" alt="Background Image" />
     <div class="footer-left flex flex-col justify-between pl-4 md:pl-20 pt-4 md:pt-20 pb-4 md:pb-20 text-xs md:text-base">
