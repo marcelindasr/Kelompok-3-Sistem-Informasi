@@ -216,8 +216,8 @@
 </div>
 
 
-<div id="app" class="w-full mx-auto px-4 md:px-8 py-12 transition-all duration-500 ease-linear">
-  <div class="judul text-black text-2xl font-semibold">GALERI </div>
+<div id="app" class="w-full mx-auto px-8 py-12 transition-all duration-500 ease-linear">
+  <div class="judul mb-4 text-black text-2xl font-semibold">GALERI </div>
   <div class="relative">
     <div class="slides-container h-32 md:h-72 flex snap-x snap-mandatory overflow-hidden overflow-x-auto space-x-2 rounded scroll-smooth ">
       <div class="b relative group">
@@ -317,7 +317,7 @@
 </div>
 </div> 
 
-  <div class="Berita mb-5 ml-4 mr-8 flex flex-wrap items-start justify-start pb-4">
+  <div class="Berita mb-5 ml-8 mr-8 flex flex-wrap items-start justify-start pb-4">
     <div class="judul text-2xl mb-4 mt-8 font-semibold text-black">BERITA</div>
     <div class="berita">
       <div class="berita-content -mx-4 mr-4 flex flex-wrap items-start justify-start pb-4 md:justify-center">
@@ -413,12 +413,12 @@
             </div>
           </div>
           <div class="item1-right items-center justify-items-center flex">
-            <p class=" text-black text-14 pt-3 pl-3 pb-3">
+            <p class=" text-black text-10 md:text-14 pt-3 pl-3 pb-3">
               THE 3RD EPI INTERNATIONAL CONFERENCE ON SCIENCE AND ENGINEERING 2019
             </p>
           </div>
           <div class="panah flex items-center justify-center mr-10 ml-auto relative">
-            <img src="./assets/informasi/panah.png" class="w-15 h-12 inset-0" />
+            <img src="./assets/informasi/panah.png" class=" md:w-15 md:h-12 w-8 h-6 inset-0" />
           </div>
         </a>
       </div>
@@ -436,12 +436,12 @@
             </div>
           </div>
           <div class="item2-right items-center justify-items-center flex">
-            <p class=" text-black text-14 pt-3 pl-3 pb-3">
+            <p class=" text-black text-10 md:text-14 pt-3 pl-3 pb-3">
               WORKSHOP & SIMPOSIUM NASIONAL GEOMEKANIKA 5 2019
             </p>
           </div>
           <div class="panah flex items-center justify-center mr-10 ml-auto relative">
-            <img src="./assets/informasi/panah.png" class="w-15 h-12 inset-0" />
+            <img src="./assets/informasi/panah.png" class="md:w-15 md:h-12 w-8 h-6 inset-0" />
           </div>
         </a>
       </div>
@@ -459,12 +459,12 @@
             </div>
           </div>
           <div class="item3-right items-center justify-items-center flex">
-            <p class=" text-black text-14 pt-3 pl-3 pb-3">
+            <p class=" text-black text-10 md:text-14 pt-3 pl-3 pb-3">
               PENGEMBANGAN KARAKTER MAHASISWA BARU 2019 FAKULTAS TEKNIK UNHAS
             </p>
           </div>
           <div class="panah flex items-center justify-center mr-10 ml-auto relative">
-            <img src="./assets/informasi/panah.png" class="w-15 h-12 inset-0" />
+            <img src="./assets/informasi/panah.png" class="md:w-15 md:h-12 w-8 h-6 inset-0" />
           </div>
         </a>
       </div>
@@ -482,12 +482,12 @@
             </div>
           </div>
           <div class="item4-right items-center justify-items-center flex">
-            <p class=" text-black text-14 pt-3 pl-3 pb-3">
+            <p class=" text-black text-10 md:text-14 pt-3 pl-3 pb-3">
               INTERNATIONAL GUEST LECTURE ON JOURNAL ARTICLE
             </p>
           </div>
           <div class="panah flex items-center justify-center mr-10 ml-auto relative">
-            <img src="./assets/informasi/panah.png" class="w-15 h-12 inset-0" />
+            <img src="./assets/informasi/panah.png" class="md:w-15 md:h-12 w-8 h-6 inset-0" />
           </div>
         </a>
       </div>
@@ -513,7 +513,7 @@
 				</div> -->
           <div class="col-xl-12">
             <div class="section-title mb-md-0">
-              <iframe loading="lazy" style="height: 400px; width: 100%"
+              <iframe loading="lazy" class="h-[400px] w-full"
                 src="https://unhas.ac.id/petakampus/virtualtour/index.php?scene=outdoortheater#outdoortheater"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -525,16 +525,16 @@
     </section>
   </div>
 
-  <footer class="flex items-center justify-between bg-merahgelap relative">
-    <img class="absolute inset-0 w-1/2 h-1/2 mx-auto my-auto bg-cover bg-center" src=".\assets\footer/footer-bg.png"
-      alt="Background Image" />
-    <div class="footer-left flex flex-col justify-between pl-20 pt-20 pb-20">
+  <footer class="bg-merahgelap relative py-10 sm:flex md:items-center md:justify-between">
+    <img class="hidden md:block absolute inset-0 w-1/2 h-1/2 mx-auto my-auto bg-cover bg-center"
+      src=".\assets\footer/footer-bg.png" alt="Background Image" />
+    <div class="footer-left flex flex-col justify-between pl-4 md:pl-20 pt-4 md:pt-20 pb-4 md:pb-20 text-xs md:text-base">
       <div class="footer-left-top">
         <div class="logo-unhas">
           <img src="./assets/logo/Group 168.png" alt="logo" width="386" height="72">
         </div>
-        <p class="text-white mt-10 font-bold mb-2">Alamat</p>
-        <div class="alamat flex ml-0 mt-0 mb-10">
+        <p class="text-white mt-2 md:mt-10 font-bold mb-2">Alamat</p>
+        <div class="alamat flex ml-0 mt-0 mb-2 md:mb-10">
           <div class="alamat-icon">
             <img src="./assets/logo/icons8-location-50.png" class="mr-3" width="20" height="20">
           </div>
@@ -544,9 +544,8 @@
               Jl. Poros Malino Km. 6 Bontomarannu 92171 Gowa, South Sulawesi Indonesia
             </a>
           </div>
-
         </div>
-        <p class="text-white mt-10 font-bold mb-2">Kontak</p>
+        <p class="text-white mt-2 md:mt-10 font-bold mb-2">Kontak</p>
         <div class="kontak flex flex-col">
           <div class="kontak-top flex">
             <div class="kontak-top-left">
@@ -573,9 +572,8 @@
             </div>
           </div>
         </div>
-
       </div>
-      <p class="text-white mt-10 font-bold mb-2">Sosial Media</p>
+      <p class="text-white mt-2 md:mt-10 font-bold mb-2">Sosial Media</p>
       <div class="footer-left-bottom flex">
         <a href="https://m.facebook.com/profile.php?id=156018367789017" target="_blank" rel="noopener noreferrer"
           class="mr-2">
@@ -588,10 +586,8 @@
           <img src="./assets/logo/icons8-youtube-50.png" alt="logo" width="20" height="20">
         </a>
       </div>
-
     </div>
-    <div class="footer-right pr-40 flex flex-col justify-center">
-      <!-- Gunakan flex dan justify-center untuk footer-right -->
+    <div class="footer-right pr-4 ml-4 md:pr-40 flex flex-col justify-center text-xs md:text-base">
       <p class="text-white font-bold mb-2">Visitor</p>
       <div class="footer-right-top">
         <a href="https://info.flagcounter.com/vhwc">
@@ -599,7 +595,7 @@
             src="https://s11.flagcounter.com/count2/vhwc/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/">
         </a>
       </div>
-      <p class="text-white mt-10 font-bold mb-2">Didukung Oleh</p>
+      <p class="text-white mt-2 md:mt-10 font-bold mb-2">Didukung Oleh</p>
       <div class="footer-right-bottom flex">
         <img src="./assets/logo/Group 182.jpg" alt="logo" class="mr-2" width="70" height="70">
         <img src="./assets/logo/Group 183.jpg" alt="logo" class="mr-2" width="70" height="70">
