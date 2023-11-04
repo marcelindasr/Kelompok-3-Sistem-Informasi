@@ -606,59 +606,62 @@
 
 <script>
 export default {
-  data() {
-    return {
-      currentIndex: 0,
-      autoplayInterval: null,
-      slideCount: 4, // Jumlah slide
-    };
+data() {
+  return {
+    currentIndex: 0,
+    autoplayInterval: null,
+    slideCount: 4, 
+  };
+},
+computed: {
+  dots() {
+    return new Array(this.slideCount).fill(null);
   },
-  computed: {
-    dots() {
-      return new Array(this.slideCount).fill(null);
-    },
+},
+methods: {
+  nextSlide() {
+    this.currentIndex = (this.currentIndex + 1) % this.slideCount;
   },
-  methods: {
-    nextSlide() {
-      this.currentIndex = (this.currentIndex + 1) % this.slideCount;
-    },
-    prevSlide() {
-      this.currentIndex = (this.currentIndex - 1 + this.slideCount) % this.slideCount;
-    },
-    goToSlide(index) {
-      this.currentIndex = index;
-    },
-    startAutoplay() {
-      this.autoplayInterval = setInterval(() => {
-        this.nextSlide();
-      }, 3000);
-    },
-    stopAutoplay() {
-      clearInterval(this.autoplayInterval);
-    },
+  prevSlide() {
+    this.currentIndex = (this.currentIndex - 1 + this.slideCount) % this.slideCount;
   },
-  created() {
-    this.startAutoplay();
+  goToSlide(index) {
+    this.currentIndex = index;
   },
+  startAutoplay() {
+    this.autoplayInterval = setInterval(() => {
+      this.nextSlide();
+    }, 3000);
+  },
+  stopAutoplay() {
+    clearInterval(this.autoplayInterval);
+  },
+},
+created() {
+  this.startAutoplay();
+},
 
   mounted() {
+    
     const slidesContainer = document.querySelector(".slides-container");
     const slideWidth = slidesContainer.querySelector(".slideim").clientWidth;
     const prevButton = document.querySelector(".prev2");
     const nextButton = document.querySelector(".next2");
-	  
-    const hamburgerIcon = document.getElementById('hamburger-icon');
-    const mobileMenu = document.getElementById('mobile-menu');
-    let isMenuOpen = false;
 
-    hamburgerIcon.addEventListener('click', () => {
-      if (isMenuOpen) {
-        mobileMenu.classList.add('hidden');
-      } else {
-        mobileMenu.classList.remove('hidden');
-      }
-      isMenuOpen = !isMenuOpen;
-    });
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+  const mobileMenu = document.getElementById('mobile-menu');
+  let isMenuOpen = false;
+
+  hamburgerIcon.addEventListener('click', () => {
+    if (isMenuOpen) {
+      mobileMenu.classList.add('hidden');
+    } else {
+      mobileMenu.classList.remove('hidden');
+    }
+    isMenuOpen = !isMenuOpen;
+  });
+
+    
 
     let currentSlideIndex = 0;
     const slides = slidesContainer.querySelectorAll(".slideim");
@@ -686,7 +689,7 @@ export default {
 
       if (currentSlideIndex === slides.length - 2) {
         // If it is, set the current slide to the first slide
-        currentSlideIndex = currentSlideIndex - 2;
+        currentSlideIndex= currentSlideIndex-3;
         changeSlide(currentSlideIndex);
       }
     });
@@ -707,20 +710,38 @@ export default {
       }, 3000);
     };
 
-    startAuto();
+
+    if (window.innerWidth >= 1024) {
+      startAuto();
+    }
 
     // Pause autoplay when clicking prev or next button
     nextButton.addEventListener("click", () => {
       clearInterval(autoplayInter);
-      startAuto();
+      if (window.innerWidth >= 1024) {
+        startAuto();
+      }
     });
 
     prevButton.addEventListener("click", () => {
       clearInterval(autoplayInter);
-      startAuto();
+      if (window.innerWidth >= 1024) {
+        startAuto();
+      }
     });
-  },
-};
+
+    // Add a window resize event listener to toggle autoplay
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 1024) {
+        if (!autoplayInter) {
+          startAuto();
+        }
+      } else {
+        clearInterval(autoplayInter);
+        autoplayInter = null;
+      }
+    });
+  }}
 
 </script>
 
