@@ -6,7 +6,7 @@
                 <div class="mb-4 ml-4 w-full bg-slate-100 md:w-1/3 lg:w-1/5">
                     <a href="#" class="berita-item1 h-65 mr-10 w-64">
                         <div class="relative h-40 w-full">
-                            <img class="h-full w-full" src="./assets/berita/imgb1.jpg" alt="News Image 1">
+                            <img class="h-full w-full" src="../assets/berita/imgb1.jpg" alt="News Image 1">
                             <div class="absolute left-0 top-0 h-full w-full bg-red-600 opacity-30 hover:bg-blue-400"></div>
                         </div>
                         <div class="judul-berita1 w-50 relative m-3 h-20 hover:bg-blue-100">
@@ -23,7 +23,7 @@
                 <div class="mb-4 ml-4 w-full bg-slate-100 md:w-1/3 lg:w-1/5">
                     <a href="#" class="berita-item2 h-65 mr-10 w-64 bg-slate-100">
                         <div class="relative h-40 w-full">
-                            <img class="h-full w-full" src="./assets/berita/imgb2.jpg" alt="News Image 2">
+                            <img class="h-full w-full" src="../assets/berita/imgb2.jpg" alt="News Image 2">
                             <div class="absolute left-0 top-0 h-full w-full bg-red-600 opacity-30 hover:bg-blue-400"></div>
                         </div>
                         <div class="judul-berita2 w-50 relative m-3 h-20 hover:bg-blue-100">
@@ -40,7 +40,7 @@
                 <div class="mb-4 ml-4 w-full bg-slate-100 md:w-1/3 lg:w-1/5">
                     <a href="#" class="berita-item3 h-65 mr-10 w-64 bg-slate-100">
                         <div class="relative h-40 w-full">
-                            <img class="h-full w-full" src="./assets/berita/imgb3.jpg" alt="News Image 3">
+                            <img class="h-full w-full" src="../assets/berita/imgb3.jpg" alt="News Image 3">
                             <div class="absolute left-0 top-0 h-full w-full bg-red-600 opacity-30 hover:bg-blue-400"></div>
                         </div>
                         <div class="judul-berita3 w-50 relative m-3 h-20 hover:bg-blue-100">
@@ -58,7 +58,7 @@
                 <div class="mb-4 ml-4 w-full bg-slate-100 md:w-1/3 lg:w-1/5">
                     <a href="#" class="berita-item4 h-65 mr-12 w-64 bg-slate-100">
                         <div class="relative h-40 w-full">
-                            <img class="h-full w-full" src="./assets/berita/imgb4.jpg" alt="News Image 4">
+                            <img class="h-full w-full" src="../assets/berita/imgb4.jpg" alt="News Image 4">
                             <div class="absolute left-0 top-0 h-full w-full bg-red-600 opacity-30 hover:bg-blue-400"></div>
                         </div>
                         <div class="judul-berita4 w-50 relative m-3 h-20 hover:bg-blue-100">

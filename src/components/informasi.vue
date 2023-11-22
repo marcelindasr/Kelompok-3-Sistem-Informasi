@@ -24,7 +24,7 @@
                         </p>
                     </div>
                     <div class="panah flex items-center justify-center mr-10 ml-auto relative">
-                        <img src="./assets/informasi/panah.png" class=" md:w-15 md:h-12 w-8 h-6 inset-0" />
+                        <img src="../assets/informasi/panah.png" class=" md:w-15 md:h-12 w-8 h-6 inset-0" />
                     </div>
                 </a>
             </div>
@@ -48,7 +48,7 @@
                         </p>
                     </div>
                     <div class="panah flex items-center justify-center mr-10 ml-auto relative">
-                        <img src="./assets/informasi/panah.png" class="md:w-15 md:h-12 w-8 h-6 inset-0" />
+                        <img src="../assets/informasi/panah.png" class="md:w-15 md:h-12 w-8 h-6 inset-0" />
                     </div>
                 </a>
             </div>
@@ -72,7 +72,7 @@
                         </p>
                     </div>
                     <div class="panah flex items-center justify-center mr-10 ml-auto relative">
-                        <img src="./assets/informasi/panah.png" class="md:w-15 md:h-12 w-8 h-6 inset-0" />
+                        <img src="../assets/informasi/panah.png" class="md:w-15 md:h-12 w-8 h-6 inset-0" />
                     </div>
                 </a>
             </div>
@@ -96,7 +96,7 @@
                         </p>
                     </div>
                     <div class="panah flex items-center justify-center mr-10 ml-auto relative">
-                        <img src="./assets/informasi/panah.png" class="md:w-15 md:h-12 w-8 h-6 inset-0" />
+                        <img src="../assets/informasi/panah.png" class="md:w-15 md:h-12 w-8 h-6 inset-0" />
                     </div>
                 </a>
             </div>
